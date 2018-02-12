@@ -1,7 +1,8 @@
 -----------------------------------------------------------------------------------------
 --
--- main.lua
---
+-- how to add text to the screen
+-- 
 -----------------------------------------------------------------------------------------
 
--- Your code here
+local myText = display.newText( "Hello World!", 1024, 768, native.systemFont, 146 )
+myText:setFillColor( 0.5, 0.5, 0 )
